@@ -1,0 +1,8 @@
+C:\Projects\ScreenWrap\ScreenWrap\MouseWrap\bin\Debug\MouseWrap.exe
+C:\Projects\ScreenWrap\ScreenWrap\MouseWrap\bin\Debug\MouseWrap.pdb
+C:\Projects\ScreenWrap\ScreenWrap\MouseWrap\obj\Debug\MouseWrap.csprojAssemblyReference.cache
+C:\Projects\ScreenWrap\ScreenWrap\MouseWrap\obj\Debug\MouseWrap.Properties.Resources.resources
+C:\Projects\ScreenWrap\ScreenWrap\MouseWrap\obj\Debug\MouseWrap.Resources.Resource1.resources
+C:\Projects\ScreenWrap\ScreenWrap\MouseWrap\obj\Debug\MouseWrap.csproj.GenerateResource.cache
+C:\Projects\ScreenWrap\ScreenWrap\MouseWrap\obj\Debug\MouseWrap.exe
+C:\Projects\ScreenWrap\ScreenWrap\MouseWrap\obj\Debug\MouseWrap.pdb

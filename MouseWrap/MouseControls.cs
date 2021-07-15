@@ -1,7 +1,7 @@
 ﻿using System.Drawing;
 using System.Runtime.InteropServices;
 
-namespace ScreenWrap
+namespace MouseWrap
 {
     public static class MouseControls
     {

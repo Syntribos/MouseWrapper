@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenWrap", "ScreenWrap\ScreenWrap.csproj", "{4F4CBB5A-53FC-4FF4-B7CA-C7ECC3539E15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseWrap", "MouseWrap\MouseWrap.csproj", "{4F4CBB5A-53FC-4FF4-B7CA-C7ECC3539E15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

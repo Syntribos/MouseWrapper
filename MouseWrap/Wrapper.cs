@@ -4,7 +4,7 @@ using System.Threading;
 using System.Windows.Forms;
 using Timer = System.Threading.Timer;
 
-namespace ScreenWrap
+namespace MouseWrap
 {
     public class Wrapper
     {

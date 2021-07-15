@@ -7,8 +7,8 @@
     <ProjectGuid>{4F4CBB5A-53FC-4FF4-B7CA-C7ECC3539E15}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ScreenWrap</RootNamespace>
-    <AssemblyName>ScreenWrap</AssemblyName>
+    <RootNamespace>MouseWrap</RootNamespace>
+    <AssemblyName>MouseWrap</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

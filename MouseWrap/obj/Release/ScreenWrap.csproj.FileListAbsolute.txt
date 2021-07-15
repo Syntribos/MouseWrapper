@@ -1,0 +1,7 @@
+C:\Projects\ScreenWrap\ScreenWrap\ScreenWrap\bin\Release\ScreenWrap.exe
+C:\Projects\ScreenWrap\ScreenWrap\ScreenWrap\bin\Release\ScreenWrap.pdb
+C:\Projects\ScreenWrap\ScreenWrap\ScreenWrap\obj\Release\ScreenWrap.exe
+C:\Projects\ScreenWrap\ScreenWrap\ScreenWrap\obj\Release\ScreenWrap.pdb
+C:\Projects\ScreenWrap\ScreenWrap\ScreenWrap\obj\Release\ScreenWrap.Properties.Resources.resources
+C:\Projects\ScreenWrap\ScreenWrap\ScreenWrap\obj\Release\ScreenWrap.Resources.Resource1.resources
+C:\Projects\ScreenWrap\ScreenWrap\ScreenWrap\obj\Release\ScreenWrap.csproj.GenerateResource.cache

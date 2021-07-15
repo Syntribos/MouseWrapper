@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ScreenWrap
+namespace MouseWrap
 {
     internal static class Program
     {
@@ -49,10 +49,24 @@ namespace ScreenWrap
             {
                 Icon = Resources.Resource1.AppIcon,
                 ContextMenu = new ContextMenu(new MenuItem[] {
-                    new MenuItem("Exit", Exit)
+                    new MenuItem("Pause", Pause),
+                    new MenuItem("Start", Start),
+                    new MenuItem("-"),
+                    new MenuItem("Exit", Exit),
                 }),
-                Visible = true
+                Visible = true,
+                Text = "Mouse Wrapper"
             };
+            _wrapper.Start();
+        }
+
+        private void Pause(object sender, EventArgs e)
+        {
+            _wrapper.Stop();
+        }
+
+        private void Start(object sender, EventArgs e)
+        {
             _wrapper.Start();
         }
 
