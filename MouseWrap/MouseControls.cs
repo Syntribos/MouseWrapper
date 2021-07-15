@@ -1,30 +1,36 @@
 ﻿using System.Drawing;
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
 
 namespace MouseWrap
 {
     public static class MouseControls
     {
         [StructLayout(LayoutKind.Sequential)]
-        public struct Point
+        public struct POINT
         {
             public int X;
             public int Y;
 
-            public static implicit operator System.Drawing.Point(Point point)
+            public static implicit operator Point(POINT point)
             {
-                return new System.Drawing.Point(point.X, point.Y);
+                return new Point(point.X, point.Y);
             }
         }
         
         [DllImport("user32.dll")]
-        private static extern bool GetCursorPos(out Point lpPoint);
+        private static extern bool GetCursorPos(out POINT lpPoint);
         
-        public static System.Drawing.Point GetCursorPosition()
+        public static Point GetCursorPosition()
         {
             GetCursorPos(out var lpPoint);
 
             return lpPoint;
+        }
+
+        public static void SetCursorPosition(int x, int y)
+        {
+            Cursor.Position = new Point(x, y);
         }
     }
 }

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.Threading;
-using System.Windows.Forms;
+﻿using System.Threading;
 using Timer = System.Threading.Timer;
 
 namespace MouseWrap
@@ -25,13 +22,13 @@ namespace MouseWrap
 
             if (point.X <= _minX)
             {
-                Cursor.Position = new Point(_maxX - 1, point.Y);
+                MouseControls.SetCursorPosition(_maxX - 1, point.Y);
                 return;
             }
 
             if (point.X >= _maxX)
             {
-                Cursor.Position = new Point(_minX + 1, point.Y);
+                MouseControls.SetCursorPosition(_minX + 1, point.Y);
             }
         }
 
