@@ -51,10 +51,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Resource1.Designer.cs">
+    <Compile Include="Resources\ApplicationResources.resx.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Resource1.resx</DependentUpon>
+      <DependentUpon>ApplicationResources.resx</DependentUpon>
     </Compile>
     <Compile Include="Wrapper.cs" />
     <Compile Include="WrapperApplicationContext.cs" />
@@ -65,9 +65,9 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Resource1.resx">
+    <EmbeddedResource Include="Resources\ApplicationResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ApplicationResources.resx.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

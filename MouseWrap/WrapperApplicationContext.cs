@@ -14,7 +14,7 @@ namespace MouseWrap
             
             _trayIcon = new NotifyIcon()
             {
-                Icon = Resources.Resource1.AppIcon,
+                Icon = Resources.ApplicationResources.AppIcon,
                 ContextMenu = new ContextMenu(new MenuItem[] {
                     new MenuItem("Pause", Pause),
                     new MenuItem("Start", Start),
