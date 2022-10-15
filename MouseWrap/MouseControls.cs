@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -20,6 +21,9 @@ namespace MouseWrap
         
         [DllImport("user32.dll")]
         private static extern bool GetCursorPos(out POINT lpPoint);
+        
+        [DllImport("user32.dll")]
+        public static extern short GetAsyncKeyState(ushort virtualKeyCode);
         
         public static Point GetCursorPosition()
         {
